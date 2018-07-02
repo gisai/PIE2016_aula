@@ -1,0 +1,2 @@
+UPDATE mysql.user SET Password=PASSWORD('gisaiupm') WHERE User='root';
+FLUSH PRIVILEGES;
